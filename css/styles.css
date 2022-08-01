@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/jordan1.jpeg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0 25px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.big-text {
+    font-size: 4rem;
+    line-height: 1;
+    margin: 0 3rem;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 1.5rem;
+}
