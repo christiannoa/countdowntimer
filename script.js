@@ -4,7 +4,7 @@ const minsEl = document.getElementById('mins')
 const secondsEl = document.getElementById('seconds')
 
 
-const release = "18 Oct 2023";
+const release = "18 Oct 2024";
 
 function countdown() {
     const releaseDate = new Date(release);
